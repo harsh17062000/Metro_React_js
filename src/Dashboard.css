@@ -1,0 +1,191 @@
+  
+  .tablle {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; 
+  }
+  
+  .theadd {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .theadd th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .tablle tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tablle tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .tablle tbody td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .tablle tbody td button {
+    white-space: nowrap; 
+  }
+  
+  
+  .tablle tbody td button  {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tablle tbody td button:hover {
+    opacity: 0.9;
+  }
+  
+  .tablle tbody td button:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tablle tbody td button:first-of-type {
+    background-color: #007BFF; 
+  }
+  
+  .tablle tbody td button:first-of-type:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .formm {
+    margin-top: 20px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .formm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .formm input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .formm input[type="text"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.2);
+  }
+  
+  .formm input[type="submit"] {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .formm input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .formm input[type="submit"]:active {
+    background-color: #003d80;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .tablle {
+      font-size: 14px;
+    }
+  
+    .theadd th,
+    tbody td {
+      padding: 8px;
+    }
+  
+    .tablle tbody td button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  
+    .formm {
+      padding: 15px;
+    }
+  
+    .formm input[type="text"] {
+      font-size: 13px;
+      padding: 6px 8px;
+    }
+  
+    .formm input[type="submit"] {
+      font-size: 14px;
+      padding: 8px 10px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .tablle {
+      display: block; 
+      overflow-x: auto; 
+    }
+  
+    .theadd {
+      display: none; 
+    }
+  
+    .tablle tbody tr {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .tablle tbody td {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .tablle tbody td:before {
+      content: attr(data-label);
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+  
+    .formm {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
