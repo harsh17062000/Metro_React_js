@@ -4,15 +4,13 @@ import "./Signup.css";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+
 function Signup() {
   const [ status, setstatus ] = useState(false)
   const [ udata, setudata ] = useState("")
   const [isRightPanelActive, setIsRightPanelActive] = useState(false);
   let nav = useNavigate()
-  function navv(){
-    nav('/home')
-  }
-
+  
 
   const [loginfrminput, setLogininput] = useState({
     username:"",
@@ -51,9 +49,8 @@ function Signup() {
 
   if (status) 
     {
-      return(
-        alert("sign up")
-      )
+        alert("sign up Succesfull.!!")
+        nav('/home')
     }
 
 
@@ -71,6 +68,7 @@ function Signup() {
        if ( loginfrminput.email === udata.email && loginfrminput.password === udata.password )
         {
             alert("login succesfull")
+            nav('/home')
         }
         else
         {
@@ -120,8 +118,7 @@ function Signup() {
             <br />
             <input type="password" name="password" placeholder="password" onChange={inputvaluelogin} required />
             <a href="#">Forget your Password?</a>
-            <button onClick={navv} type="submit">logi
-              n</button>
+            <button type="submit">login</button>
           </form>
         </div>
 

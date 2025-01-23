@@ -4,7 +4,6 @@ align-items: center;
 display: flex;
 justify-content:center;
 flex-direction: column;
-/* background: #f6f5f7; */
 font-family:'monserrat',sans-serif;
 min-height: 100%;
 margin:10%;
@@ -14,11 +13,7 @@ margin:10%;
 {
 position: relative;
  width: 800px;
- /* max-width: 100%; */
  min-height: 480px;
- /* background:#fff; */
-/* border-radius: 10px; */
- /* overflow: hidden; */
 box-shadow: 0 14px 28px rgba(0,0,0,0.25),
             0 10px 10px rgba(0,0,0,0.22)
 }
@@ -93,12 +88,12 @@ margin:0;
  .sign-in form button , .sign-up form button, .overlay-left button , .overlay-right button
  {
 color: #fff;
-background: #ff4b2b;
+background: #43e9f8;
 font-size: 12px;
 font-weight: bold;
 padding: 12px 55px;
 margin: 20px;
-border: 1px solid #ff4b2b;
+border: 1px solid #2bffb8;
 border-radius: 20px;
 outline: none;
 Letter-spacing: 1px;
@@ -146,11 +141,11 @@ cursor: pointer;
 {
     position: relative;
     color: #fff;
-    background: #ff416c;
+    background: #41ffdc;
     left: -100%;
     height: 100%;
     width: 200%;
-    background: linear-gradient(to right, #ff4b28,#ff228c);
+    background: linear-gradient(to right, #28ffc9,#22cfff);
     transform: translateX(0);
     transition: transform 0.6s ease-in-out;
 }
