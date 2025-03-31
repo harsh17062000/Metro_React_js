@@ -53,7 +53,7 @@ function Footer() {
                 </div>
 
                 <div className="text-center mt-3">
-                    <p className="small mb-0">&copy; {new Date().getFullYear()} Metro. All rights reserved.</p>
+                    <p className="small mb-0"></p>
                 </div>
             </div>
         </footer>

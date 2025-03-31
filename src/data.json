@@ -6,7 +6,51 @@
       "date": "2025-03-12",
       "passengers": "2",
       "from": "bhopal",
-      "to": "pune"
+      "to": "xyz"
+    },
+    {
+      "id": "2924",
+      "train": "",
+      "date": "",
+      "passengers": "",
+      "from": "",
+      "to": ""
+    }
+  ],
+  "blue": [
+    {
+      "id": "1",
+      "train": "11057",
+      "station":"Aims ---> Ranikamlapati ---> ISBT ---> M.P. Nagar"
+    }
+  ],
+  "red": [
+    {
+      "id": "1",
+      "train": "21057",
+      "station": "M.P. Nagar ---> Newmarket ---> Lake View ---> lal ghati "
+    },
+    {
+      "id": "2",
+      "train": "21058",
+      "station":"Aims ---> ISBT ---> M.P. Nagar"
+    },
+    {
+      "id": "3",
+      "train": "21059",
+      "station":"Aims ---> Ranikamlapati ---> ISBT ---> M.P. Nagar"
+    }
+  ],
+  "yellow": [
+    {
+      "id": "1",
+      "train": "11057",
+      "station": "M.P. Nagar ---> subhash nagar ---> prabhat petrol pump ---> indrpuri --->Milan "
+    },
+    {
+      "id": "2",
+      "train": "11058",
+      "station":" Ranikamlapati ---> ISBT ---> M.P. Nagar"
     }
   ]
 }
